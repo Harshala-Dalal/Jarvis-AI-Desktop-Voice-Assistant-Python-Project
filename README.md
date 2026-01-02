@@ -40,9 +40,9 @@ This project showcases practical applications of speech processing, AI logic int
 
 ## 📁 Project Structure
 Jarvis-AI-Desktop-Voice-Assistant/
-│
-├── jarvis.py                # Core assistant script
-├── README.md                # Documentation
+
+- jarvis.py                # Core assistant script
+- README.md                # Documentation
 
 ----
 
@@ -50,37 +50,37 @@ Jarvis-AI-Desktop-Voice-Assistant/
 
 **1️⃣ Clone the Repository**
 
-git clone https://github.com/Harshala-Dalal/Jarvis-AI-Desktop-Voice-Assistant-Python-Project.git
-cd Jarvis-AI-Desktop-Voice-Assistant-Python-Project
+- git clone https://github.com/Harshala-Dalal/Jarvis-AI-Desktop-Voice-Assistant-Python-Project.git
+- cd Jarvis-AI-Desktop-Voice-Assistant-Python-Project
 
 **2️⃣ Create a Virtual Environment (Recommended)**
 
-python -m venv venv
-source venv/bin/activate      # On Linux/Mac
-venv\Scripts\activate         # On Windows
+- python -m venv venv
+  - source venv/bin/activate      # On Linux/Mac
+  - venv\Scripts\activate         # On Windows
 
 **3️⃣ Install Dependencies**
 
-pip install SpeechRecognition pyttsx3 wikipedia
+- pip install SpeechRecognition pyttsx3 wikipedia
 (Add other libraries from code)
 
 **▶️ How to Run**
 
-After installation: python jarvis.py
+- After installation: python jarvis.py
 
-🔊 Speak into your microphone when prompted.
-Jarvis will listen, process your command, and respond or execute actions.
+- 🔊 Speak into your microphone when prompted.
+- Jarvis will listen, process your command, and respond or execute actions.
 
 ----
 
 ## 🎙️ Example Voice Commands
 
-✔ “Hello Jarvis”
-✔ “Open Google Chrome”
-✔ “Search Wikipedia for Black Holes”
-✔ “Play music on YouTube”
-✔ “What’s the time?”
-✔ “Exit / Quit”
+- ✔ “Hello Jarvis”
+- ✔ “Open Google Chrome”
+- ✔ “Search Wikipedia for Black Holes”
+- ✔ “Play music on YouTube”
+- ✔ “What’s the time?”
+- ✔ “Exit / Quit”
 
 You can expand this list with more custom commands.
 
