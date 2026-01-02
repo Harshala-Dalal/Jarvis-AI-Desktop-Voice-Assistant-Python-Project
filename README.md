@@ -1,61 +1,90 @@
-**Jarvis AI Desktop Voice Assistant Python Project**
+## 🎙️ Jarvis AI Desktop Voice Assistant
 
-Jarvis is an interactive voice assistant built in Python that can perform tasks based on your voice commands. It uses pyttsx3 for speech synthesis and speech_recognition for understanding your voice. You can ask Jarvis to search Wikipedia, open websites, play music, tell the time, open applications, and even send emails.
+## 🧠 A Python-Powered Personal Voice Assistant
 
-Features:
+The Jarvis AI Desktop Voice Assistant is an intelligent, voice-controlled assistant that understands natural language voice commands and responds with appropriate actions. Inspired by futuristic virtual assistants, it leverages speech recognition, text-to-speech (TTS), logic automation, and Python scripting to perform everyday tasks hands-free.
 
-⦁	Greets the user based on the time of day
-⦁	Recognizes voice commands using your microphone
-⦁	Search and summarize information from Wikipedia
-⦁	Open websites like YouTube, Google, and StackOverflow
-⦁	Play local music files
-⦁	Tell the current time
-⦁	Open applications installed on your system
-⦁	Send emails through Gmail
+This project showcases practical applications of speech processing, AI logic integration, and desktop automation using Python.
 
+----
 
-Technologies Used:
+## 🔥 Key Features
 
-1.	Backend:
+- ✔ Voice recognition and command execution
+- ✔ Natural speech response (text-to-speech)
+- ✔ Performs real-time tasks like:
+   - Opening applications
+   - Searching web
+   - Playing music
+- ✔ Answering general queries
+   - Modular design for easy customization
+   - Works offline (partial commands)
+   - Extendable command library
+ 
+----
 
-⦁	Python 3.8+
-⦁	pyttsx3 for text-to-speech
-⦁	SpeechRecognition for voice input
-⦁	Wikipedia API for fetching information
-⦁	smtplib for sending emails
+## 🧠 Tech Stack & Libraries
 
-2. Optional:
+- This project is built using Python and the following key libraries:
+1. speech_recognition:	Converts speech to text
+2. pyttsx3:	Converts text to speech
+3. datetime:	Time and date handling
+4. webbrowser:	Opens URLs and search
+5. os:	System commands
+6. wikipedia:	Fetches Wikipedia summaries
+7. random:	Random text selection
+8. subprocess:	Launches external apps
+9. And others:	Task-specific features
 
-Any code editor (VS Code, PyCharm) for opening apps
+----
 
+## 📁 Project Structure
+Jarvis-AI-Desktop-Voice-Assistant/
+│
+├── jarvis.py                # Core assistant script
+├── README.md                # Documentation
 
-Installation and Setup:
+----
 
-1.	Prerequisites
+## 🚀 Setup & Installation
 
-⦁	Python 3.8 or higher
-⦁	A working microphone
-⦁	Gmail account for sending emails (less secure app access may be required)
+**1️⃣ Clone the Repository**
 
-2. Setup
+git clone https://github.com/Harshala-Dalal/Jarvis-AI-Desktop-Voice-Assistant-Python-Project.git
+cd Jarvis-AI-Desktop-Voice-Assistant-Python-Project
 
-⦁	Clone the repository:
+**2️⃣ Create a Virtual Environment (Recommended)**
 
-git clone https://github.com/yourusername/jarvis-voice-assistant.git
+python -m venv venv
+source venv/bin/activate      # On Linux/Mac
+venv\Scripts\activate         # On Windows
 
-⦁	Navigate to the project folder:
+**3️⃣ Install Dependencies**
 
-cd jarvis-voice-assistant
+pip install SpeechRecognition pyttsx3 wikipedia
+(Add other libraries from code)
 
-⦁	Install the required packages:
+**▶️ How to Run**
 
-pip install pyttsx3 SpeechRecognition wikipedia
+After installation: python jarvis.py
 
-⦁	Update the script:
+🔊 Speak into your microphone when prompted.
+Jarvis will listen, process your command, and respond or execute actions.
 
-Add your Gmail credentials in sendEmail() function
+----
 
-Update local paths for music and applications
+## 🎙️ Example Voice Commands
 
-⦁	Run
-python jarvis.py
+✔ “Hello Jarvis”
+✔ “Open Google Chrome”
+✔ “Search Wikipedia for Black Holes”
+✔ “Play music on YouTube”
+✔ “What’s the time?”
+✔ “Exit / Quit”
+
+You can expand this list with more custom commands.
+
+----
+
+**🙌 Thank You!**
+**If you find this project useful, don’t forget to ⭐ the repo!**
